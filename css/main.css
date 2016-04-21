@@ -1,0 +1,27 @@
+* {
+	margin: 0 auto;
+}
+
+body {
+	text-align: center;
+	background-image: url(../img/web-bg.jpg)
+
+}
+
+body h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+body div button {
+	font-family: 'Open Sans', sans-serif;
+}
+
+div #yourHoroscope {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#yourHoroscope {
+	margin-top: 20px;
+	color: white;
+}

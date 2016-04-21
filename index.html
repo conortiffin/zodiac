@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What's your Horoscope?</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3">
+				<form>
+					<div class="form-group">
+						<h1>Enter your horoscope sign</h1>
+					</div>
+					<div class="form-group">
+						<input id="sign" class="form-control">
+					</div>
+					<div class="form-group">
+						<button type="button" onclick="horoscope()" class="btn btn-primary btn-lg">click me</button>
+					</div>
+				</form>
+
+				<div>
+					<h1 id="yourSign"></h1>
+					<img id="icon" src="">
+				</div>
+
+				<div id="yourHoroscope">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
